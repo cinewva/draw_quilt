@@ -18,6 +18,7 @@ def main():
     draw_circle_patch(canvas, PATCH_SIZE*2, PATCH_SIZE)
     draw_square_patch(canvas, PATCH_SIZE*3, PATCH_SIZE)
     draw_circle_patch(canvas, 0, PATCH_SIZE)
+    canvas.mainloop()
     
 def draw_circle_patch(canvas, start_x, start_y):
     # to draw a circle get inspired from the draw square but use the draw oval function
