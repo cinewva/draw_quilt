@@ -1,4 +1,4 @@
-from draw_quilt.graphics import Canvas
+from graphics import Canvas
 
 # each patch is a square with this width and height:
 PATCH_SIZE = 100
